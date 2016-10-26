@@ -24,3 +24,20 @@ Still no correspondance from Bogdan.
 Decided on the tasks for next week, to create some basic art assets and fix some of the basic mechanics of the game.
 Discussed the art style with regards to taking inspiration from other games with a similar style eg. limbo
 Discussed using hand drawn art that is then imported and edited on photoshop for a unique art style.
+
+
+26/10/16 - 11:02
+Members in attendance:- Oliver, Max
+
+Clarified mechanics (what the player does):
+	Dodging rain
+		Using grass as shelter
+		Different ground types affect the player's speed (increases challenge because you will be slower)
+	Picking up items and placing them down
+		using the same item in multiple ways e.g. placing a leaf behind you to protect from rain rolling down a hill behind you,
+		or placing it on the floor to cross a ditch etc.
+		possibly adding in a jump/climb to add more depth to using the items
+
+
+for now focus on the basic mechanics of the rain, and getting the item mechanic (picking up, putting down on the floor) to a satisfactory standard before
+continuing with more mechanics/depth
