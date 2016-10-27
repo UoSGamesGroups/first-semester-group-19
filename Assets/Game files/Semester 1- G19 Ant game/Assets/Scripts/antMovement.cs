@@ -12,7 +12,11 @@ public class antMovement : MonoBehaviour {
 
     void Update()
     {
-     transform.position += new Vector3(Input.GetAxis("Horizontal"), 0, 0) * speed * Time.deltaTime;
+        if (Input.GetKey("a") || Input.GetKey("d"))
+        {
+
+            transform.position += new Vector3(Input.GetAxis("Horizontal"), 0, 0) * speed * Time.deltaTime;
+        }
     }
 
 }
