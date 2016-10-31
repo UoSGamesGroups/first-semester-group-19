@@ -2,9 +2,10 @@
 using System.Collections;
 
 public class antMovement : MonoBehaviour {
+    static public int direction;
 
     float speed;
-
+    
     void Start()
     {
         speed = 4.0f;
@@ -17,6 +18,14 @@ public class antMovement : MonoBehaviour {
 
             transform.position += new Vector3(Input.GetAxis("Horizontal"), 0, 0) * speed * Time.deltaTime;
         }
+        if (Input.GetKey(KeyCode.A))
+            {
+            direction = 0;
+            }
+        if (Input.GetKey(KeyCode.D))
+            {
+            direction = 1;
+        }
     }
-
 }
+
