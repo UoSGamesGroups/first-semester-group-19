@@ -12,6 +12,11 @@ public class pickUpItem : MonoBehaviour {
         player = this.gameObject;	
     }
 	
+    void OnMouseUpAsButton()
+    {
+
+    }
+
 	// Update is called once per frame
 	void Update ()
     {
