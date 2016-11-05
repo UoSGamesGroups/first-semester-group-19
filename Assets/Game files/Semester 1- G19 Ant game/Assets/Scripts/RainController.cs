@@ -3,44 +3,52 @@ using System.Collections;
 
 public class RainController : MonoBehaviour
 {
+    public GameObject[] rainArray;
     public GameObject damageRain;
+    private int rainAmount = 20;
     public GameObject player;
     [SerializeField]
-    private int rainCoundown;
-
-    // Use this for initialization
+    private int rainCountdown;    // Use this for initialization
     void Start()
     {
-        rainCoundown = 100;
+        rainArray = new GameObject[rainAmount];
+        for (int i = 0; i < rainAmount; i++)
+        {
+            GameObject newRain = Instantiate(damageRain, new Vector3((float)i, 0, 0), Quaternion.identity) as GameObject;
+            rainArray[i] = newRain;
+            newRain.SetActive(false);
+        }
+
+        rainCountdown = 100;
+    }
+    private GameObject findSpareRain()
+    {
+        for (int i = 0; i < rainAmount; i++)
+        {
+            if (rainArray != null) {
+                if (rainArray[i].activeSelf == false)
+                {
+                    rainArray[i].SetActive(true);
+                    return rainArray[i];
+                }
+                
+            }
+        }
+
+        return null;
     }
     void Update()
     {
-        rainCoundown--;
+        
 
-        if (rainCoundown == 0)
+        rainCountdown--;
+
+        if (rainCountdown == 0)
         {
-            StartCoroutine(spawnRain());
-            spawnRain();
-            rainCoundown = 100;
+            findSpareRain();
+            rainCountdown = 100;
         }
-        else
-        {
-            StopCoroutine(spawnRain());
-        }
+
     }
 
-
-
-
-    IEnumerator spawnRain()
-    {
-        if (rainCoundown == 0)
-        {
-            for (int i = 0; i < 6; i++)
-            { 
-                Instantiate(damageRain, new Vector3(Random.Range(player.transform.position.x - 10, player.transform.position.x + 10), 5.6f, 0), Quaternion.identity);
-                yield return new WaitForSeconds(0.1f);
-            }
-        }
-    }
 }

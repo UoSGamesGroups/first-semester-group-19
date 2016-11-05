@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: 063170c69d780774998c3957f4b8db1a
+timeCreated: 1478081593
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ant animation_0
+    21300002: Ant animation_1
+    21300004: Ant animation_2
+    21300006: Ant animation_3
+    21300008: Ant animation_4
+    21300010: Ant animation_5
+    21300012: Ant animation_6
+    21300014: Ant animation_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Ant animation_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 2086
+        width: 275
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.964645, y: -47.67566}
+        - {x: 79.964645, y: -29.67566}
+        - {x: 79.964645, y: 65.32434}
+        - {x: 19.964645, y: 65.32434}
+        - {x: -80.035355, y: 6.324341}
+        - {x: -80.035355, y: -47.67566}
+        - {x: 20.964645, y: -47.67566}
+        - {x: 23.964645, y: -40.67566}
+        - {x: 19.964645, y: -36.67566}
+        - {x: 35.964645, y: -47.67566}
+    - name: Ant animation_1
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 2079
+        width: 242
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.9236145, y: -55.26233}
+        - {x: -14.9236145, y: -58.26233}
+        - {x: -13.9236145, y: -60.26233}
+        - {x: -10.9236145, y: -61.26233}
+        - {x: -8.9236145, y: -61.26233}
+        - {x: -5.9236145, y: -58.26233}
+        - {x: -6.9236145, y: -55.26233}
+        - {x: -12.9236145, y: -53.26233}
+      - - {x: 70.076385, y: 8.737671}
+        - {x: 70.076385, y: 65.73767}
+        - {x: 42.076385, y: 65.73767}
+        - {x: -8.9236145, y: 37.73767}
+        - {x: -69.923615, y: 1.7376709}
+        - {x: -69.923615, y: -54.26233}
+        - {x: -67.923615, y: -59.26233}
+        - {x: -9.9236145, y: -59.26233}
+        - {x: -6.9236145, y: -48.26233}
+        - {x: -7.9236145, y: -43.26233}
+        - {x: -2.9236145, y: -35.26233}
+        - {x: -7.9236145, y: -55.26233}
+        - {x: -5.9236145, y: -59.26233}
+        - {x: 29.076385, y: -59.26233}
+        - {x: 36.076385, y: -58.26233}
+        - {x: 52.076385, y: -47.26233}
+        - {x: 54.076385, y: -39.26233}
+    - name: Ant animation_2
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 2079
+        width: 242
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.623169, y: -56.26233}
+        - {x: 13.376831, y: -60.26233}
+        - {x: 24.376831, y: -61.26233}
+        - {x: 29.376831, y: -56.26233}
+        - {x: 29.376831, y: -51.26233}
+        - {x: 25.376831, y: -47.26233}
+        - {x: 25.376831, y: -33.26233}
+        - {x: 35.37683, y: -63.26233}
+        - {x: 38.37683, y: -64.26233}
+        - {x: 72.37683, y: -64.26233}
+        - {x: 72.37683, y: 65.73767}
+        - {x: 22.376831, y: 65.73767}
+        - {x: -70.62317, y: 6.737671}
+        - {x: -70.62317, y: -64.26233}
+        - {x: -8.623169, y: -64.26233}
+    - name: Ant animation_3
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 2082
+        width: 271
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54.91333, y: 60.489136}
+        - {x: -29.08667, y: 27.489136}
+        - {x: -79.08667, y: -15.510864}
+        - {x: -79.08667, y: -58.510864}
+        - {x: -77.08667, y: -60.510864}
+        - {x: 67.91333, y: -60.510864}
+        - {x: 78.91333, y: -21.510864}
+        - {x: 78.91333, y: 60.489136}
+    - name: Ant animation_4
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 2032
+        width: 272
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72.337524, y: -56.201294}
+        - {x: 76.337524, y: -54.201294}
+        - {x: 76.337524, y: 49.798706}
+        - {x: 75.337524, y: 56.798706}
+        - {x: 65.337524, y: 67.798706}
+        - {x: 53.337524, y: 67.798706}
+        - {x: 47.337524, y: 66.798706}
+        - {x: -61.662476, y: -7.201294}
+        - {x: -79.662476, y: -40.201294}
+        - {x: -79.662476, y: -62.201294}
+        - {x: 40.337524, y: -62.201294}
+        - {x: 38.337524, y: -47.201294}
+        - {x: 35.337524, y: -44.201294}
+        - {x: 56.337524, y: -55.201294}
+      - - {x: 44.337524, y: -54.201294}
+        - {x: 42.337524, y: -54.201294}
+        - {x: 39.337524, y: -58.201294}
+        - {x: 39.337524, y: -60.201294}
+        - {x: 41.337524, y: -61.201294}
+        - {x: 45.337524, y: -61.201294}
+        - {x: 46.337524, y: -58.201294}
+        - {x: 46.337524, y: -55.201294}
+    - name: Ant animation_5
+      rect:
+        serializedVersion: 2
+        x: 2914
+        y: 2082
+        width: 246
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.217773, y: -24.510864}
+        - {x: 36.217773, y: -59.510864}
+        - {x: 38.217773, y: -61.510864}
+        - {x: 66.21777, y: -61.510864}
+        - {x: 71.21777, y: -31.510864}
+        - {x: 71.21777, y: 62.489136}
+        - {x: 28.217773, y: 62.489136}
+        - {x: -67.78223, y: 5.4891357}
+        - {x: -67.78223, y: -61.510864}
+        - {x: 18.217773, y: -61.510864}
+        - {x: 29.217773, y: -60.510864}
+        - {x: 32.217773, y: -54.510864}
+        - {x: 29.217773, y: -48.510864}
+    - name: Ant animation_6
+      rect:
+        serializedVersion: 2
+        x: 2889
+        y: 1543
+        width: 314
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.37744, y: -32.183594}
+        - {x: -91.37744, y: -50.183594}
+        - {x: 75.62256, y: -50.183594}
+        - {x: 92.62256, y: -7.1835938}
+        - {x: 92.62256, y: 47.816406}
+        - {x: 55.62256, y: 47.816406}
+        - {x: -77.37744, y: -8.183594}
+    - name: Ant animation_7
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 897
+        width: 317
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67.04443, y: -7.3238525}
+        - {x: 68.04443, y: -15.323853}
+        - {x: 70.04443, y: -18.323853}
+        - {x: 74.04443, y: -19.323853}
+        - {x: 88.04443, y: -22.323853}
+        - {x: 93.04443, y: -14.323853}
+        - {x: 93.04443, y: -0.32385254}
+        - {x: 84.04443, y: 25.676147}
+        - {x: -22.955566, y: 25.676147}
+        - {x: -92.95557, y: 3.6761475}
+        - {x: -92.95557, y: -28.323853}
+        - {x: 72.04443, y: -28.323853}
+        - {x: 71.04443, y: -18.323853}
+        - {x: 67.04443, y: -16.323853}
+      - - {x: 90.04443, y: -27.323853}
+        - {x: 91.04443, y: -28.323853}
+        - {x: 93.04443, y: -28.323853}
+        - {x: 93.04443, y: -22.323853}
+        - {x: 90.04443, y: -23.323853}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
