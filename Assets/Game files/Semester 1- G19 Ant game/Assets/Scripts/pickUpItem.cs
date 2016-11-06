@@ -8,25 +8,18 @@ public class pickUpItem : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-        item = null;
-        player = this.gameObject;	
+        player = GameObject.FindGameObjectWithTag("Player");
+        item = this.gameObject;	
     }
-	
+
+
     void OnMouseUpAsButton()
     {
-
-    }
-
-	// Update is called once per frame
-	void Update ()
-    {
-	    if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (player.transform.position.x < item.transform.position.x + 1.2 && player.transform.position.x > item.transform.position.x - 1.2)
         {
-            item = GameObject.FindGameObjectWithTag("Leaf");
             item.transform.parent = player.transform;
-            item.transform.position = new Vector2(player.transform.position.x, player.transform.position.y+0.5f);
-
+            item.transform.position = new Vector2(player.transform.position.x, player.transform.position.y + 0.5f);
+            item.transform.rotation = Quaternion.Euler(0, 0, 0);
         }
-
-	}
+    }
 }

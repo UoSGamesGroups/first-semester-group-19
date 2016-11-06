@@ -45,7 +45,10 @@ public class RainController : MonoBehaviour
 
         if (rainCountdown == 0)
         {
-            findSpareRain();
+            for (int i = 0; i < 5; i++)
+            {
+                findSpareRain();
+            }
             rainCountdown = 100;
         }
 
