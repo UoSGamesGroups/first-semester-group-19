@@ -15,3 +15,17 @@ Chris also mentioned moving where the functionality of item pickups is to the it
 the player's script is looking for.
 
 Max did some work on tasks in the backlog rather than on the assigned tasks
+
+
+09/11/16 - 10:47
+Members in attendance:- Oliver, Max
+
+the majority of max's work for last week was either not started or not finished (it was pulled into "in progress" but no work was uploaded and no time logged)
+
+Discussed adding a can with a spider inside of it, which would act as an obstacle for the player to overcome, the spider would have some AI which follows/chases the player
+and the player needs to traverse the spiders web and survive the spider to escape the can (skill test, also adds stress to the player)
+
+discussed using a jumping mechanic, and using more of a puzzle style activity in order to engage the player, E.g there are rocks that the player can pick up and move to a cliff
+which would allow for the player to jump on them to traverse the terrain. This would introduce a timed mechanic (the grass will buckle under a certain amount of hits by the rain) 
+and a skill mechanic in dodging the rain (possibly slow down the player under different loads e.g big rocks slow the player down more than small rocks) which would generate stress on the player
+then we could add more of a permanent shelter to allow release of any built up tension.
