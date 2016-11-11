@@ -18,11 +18,8 @@ public class deactivateRain : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D col)
     {
         hit = true; 
-      //  if (col.collider.tag == "Ground")
-        //{
-            Debug.Log("here");
-        transform.position = new Vector3(player.transform.position.x + (Random.Range(-7f,7f)), transform.position.y+6, transform.position.z);
+            
+        transform.position = new Vector3(player.transform.position.x + (Random.Range(-5f,5f)), transform.position.y+(Random.Range(6,9)), transform.position.z);
             gameObject.SetActive(false);
-       // }
     }
 }

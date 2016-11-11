@@ -14,7 +14,7 @@ public class RainController : MonoBehaviour
         rainArray = new GameObject[rainAmount];
         for (int i = 0; i < rainAmount; i++)
         {
-            GameObject newRain = Instantiate(damageRain, new Vector3((float)i, 0, 0), Quaternion.identity) as GameObject;
+            GameObject newRain = Instantiate(damageRain, new Vector3((float)i, 8, 0), Quaternion.identity) as GameObject;
             rainArray[i] = newRain;
             newRain.SetActive(false);
         }
@@ -29,14 +29,15 @@ public class RainController : MonoBehaviour
                 if (rainArray[i].activeSelf == false)
                 {
                     rainArray[i].SetActive(true);
+                 
                     return rainArray[i];
                 }
-                
             }
         }
 
         return null;
     }
+    
     void Update()
     {
         

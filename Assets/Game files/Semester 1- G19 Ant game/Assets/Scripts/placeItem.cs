@@ -4,28 +4,32 @@ using System.Collections;
 public class placeItem : MonoBehaviour {
     public GameObject carriedItem;
     public GameObject player;
+    public pickUpItem pickUpScript;
     // Use this for initialization
     void Start () {
         player = this.gameObject;
-	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    }
+
+    // Update is called once per frame
+    void Update () {
 
         //place for barrier
-	    if (antMovement.direction == 1 && Input.GetKeyDown(KeyCode.E))
+	    if (antMovement.direction == 1 && Input.GetKeyDown(KeyCode.E) && pickUpScript.carryingItem == true)
             {
             carriedItem = GameObject.FindGameObjectWithTag("Leaf");
             carriedItem.transform.parent = null;
             carriedItem.transform.position = new Vector2(player.transform.position.x + 0.2f, player.transform.position.y);
             carriedItem.transform.rotation = Quaternion.Euler(0, 0, 90);
+            pickUpScript.carryingItem = false;
         }
-        if (antMovement.direction == 0 && Input.GetKeyDown(KeyCode.E))
+        if (antMovement.direction == 0 && Input.GetKeyDown(KeyCode.E) && pickUpScript.carryingItem == true)
         {
             carriedItem = GameObject.FindGameObjectWithTag("Leaf");
             carriedItem.transform.parent = null;
             carriedItem.transform.position = new Vector2(player.transform.position.x - 0.2f, player.transform.position.y);
             carriedItem.transform.rotation = Quaternion.Euler(0, 0, 90);
+            pickUpScript.carryingItem = false;
         }
     }
 }
