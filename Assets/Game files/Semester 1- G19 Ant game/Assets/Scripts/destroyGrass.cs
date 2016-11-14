@@ -21,7 +21,7 @@ public class destroyGrass : MonoBehaviour {
         if (Coll.collider.tag == "Rain")
         {
             collisionCounter += 0.5f;
-            Debug.Log(collisionCounter);
+           // Debug.Log(collisionCounter);
         }
     }
 }

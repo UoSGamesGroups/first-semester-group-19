@@ -17,7 +17,7 @@ public class pickUpItem : MonoBehaviour {
 
     void OnMouseUpAsButton()
     {
-        if (player.transform.position.x < item.transform.position.x + 1.2 && player.transform.position.x > item.transform.position.x - 1.2)
+        if (player.transform.position.x < item.transform.position.x + 1.5 && player.transform.position.x > item.transform.position.x - 1.5)
         {
             item.transform.parent = player.transform;
             item.transform.position = new Vector2(player.transform.position.x, player.transform.position.y + 0.5f);
