@@ -19,7 +19,7 @@ public class RainController : MonoBehaviour
             newRain.SetActive(false);
         }
 
-        rainCountdown = 100;
+        rainCountdown = 70;
     }
     private GameObject findSpareRain()
     {
@@ -28,6 +28,7 @@ public class RainController : MonoBehaviour
             if (rainArray != null) {
                 if (rainArray[i].activeSelf == false)
                 {
+                    rainArray[i].transform.position = new Vector2(player.transform.position.x + Random.Range(-5, 5), 9);
                     rainArray[i].SetActive(true);
                  
                     return rainArray[i];
@@ -46,7 +47,7 @@ public class RainController : MonoBehaviour
 
         if (rainCountdown == 0)
         {
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 10; i++)
             {
                 findSpareRain();
             }
