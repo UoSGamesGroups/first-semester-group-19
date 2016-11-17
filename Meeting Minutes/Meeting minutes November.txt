@@ -29,3 +29,13 @@ discussed using a jumping mechanic, and using more of a puzzle style activity in
 which would allow for the player to jump on them to traverse the terrain. This would introduce a timed mechanic (the grass will buckle under a certain amount of hits by the rain) 
 and a skill mechanic in dodging the rain (possibly slow down the player under different loads e.g big rocks slow the player down more than small rocks) which would generate stress on the player
 then we could add more of a permanent shelter to allow release of any built up tension.
+
+16/11/16 - 11:36
+Members in attendance:- Oliver, Max
+
+Sam emailed to say he was in the labs, however did not respond to emails from myself with regards to where he is/asking him to meet us.
+One piece of max's work was not started(he had been assigned this for 2 weeks in a row) 
+
+Discussed ways to improve the powerpoint for the presentation
+discussed adding new features to the game, however during the presentation Rob and Steve advised us otherwise, and to instead polish the game we already have
+Tasks for the next week will be focussed on finishing the last few important mechanics we need and polishing the game, and finishing off creating art assets we are still in need of.
