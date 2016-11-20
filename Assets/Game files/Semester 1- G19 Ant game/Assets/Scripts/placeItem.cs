@@ -10,7 +10,6 @@ public class placeItem : MonoBehaviour {
     void Start () {
         player = this.gameObject;
         onLeaf = false;
-
     }
 
     // Update is called once per frame
@@ -54,9 +53,8 @@ public class placeItem : MonoBehaviour {
         {
             player.transform.position = new Vector3(player.transform.position.x + 1, player.transform.position.y + 0.3f, 0);
             carriedItem.transform.parent = null;
+            onLeaf = false;
 
         }
-
-
     }
 }

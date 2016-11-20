@@ -25,7 +25,7 @@ public class backgroundController : MonoBehaviour {
     {
         while (true)
         {
-            Debug.Log("here");
+          //  Debug.Log("here");
             gameObject.GetComponent<SpriteRenderer>().sprite = lightBackground;
             transform.localScale = new Vector3(1, 1, 1);
             yield return new WaitForSeconds(0.1f);
