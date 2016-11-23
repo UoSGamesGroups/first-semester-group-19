@@ -39,3 +39,28 @@ One piece of max's work was not started(he had been assigned this for 2 weeks in
 Discussed ways to improve the powerpoint for the presentation
 discussed adding new features to the game, however during the presentation Rob and Steve advised us otherwise, and to instead polish the game we already have
 Tasks for the next week will be focussed on finishing the last few important mechanics we need and polishing the game, and finishing off creating art assets we are still in need of.
+
+
+
+23/11/16 - 10:19
+Members in attendance:- Oliver, Max
+
+1 piece of Max's work not finished, he says it is nearly done. Sam has one piece of work started, but neither were finished.
+
+Assets we are still in need of:-
+Animation for rain hitting surface
+Sprite for the runoff (Just a blue ball?)
+Side on view of leaf(pickup)
+Water for pond/puddles
+Finalise script for runoff
+complete animations in unity
+Finalise game ending (add restart also)
+Create either a picture or find a font to use for the game ending screen
+Create a UI
+Balance numbers for the rain
+finalise the level
+find out why the 3d models for the ground aren't exporting correctly
+Balance numbers for loss condition
+
+Went over Max's initial thoughts for the sprint and decided to give him the level design task for the week, Sam will be given the same tasks as
+last week due to them being unfinished. My tasks for the week will be to create a rudimentary UI, balance numbers for loss condition and finalise the game ending.
