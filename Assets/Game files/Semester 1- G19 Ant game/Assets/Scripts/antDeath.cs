@@ -9,6 +9,8 @@ public class antDeath : MonoBehaviour {
     public Text gameOver;
     public GameObject restartGame;
     private GameObject player;
+    public Image healthBar;
+    public Text healthText;
 	// Use this for initialization
 	void Start () {
         rain = GameObject.FindGameObjectWithTag("Rain");
@@ -30,6 +32,7 @@ public class antDeath : MonoBehaviour {
             gameOver.text = "Game Over";
             restartGame.SetActive(true);
         }
+        healthText.text = "Health: " + antHealth;
 	
 	}
     void OnCollisionEnter2D(Collision2D col)
@@ -37,6 +40,7 @@ public class antDeath : MonoBehaviour {
         if (col.gameObject.tag == "Rain")
         {
             antHealth -= 10;
+            healthBar.fillAmount -= 0.1f;
         }
     }
 }

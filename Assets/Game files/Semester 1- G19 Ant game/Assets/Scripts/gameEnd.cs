@@ -19,6 +19,7 @@ public void OnClick()
         gameOver.text = null;
         gameObject.SetActive(false);
         deathScript.antHealth = 100;
+        deathScript.healthBar.fillAmount += 1;
     }
 
 
