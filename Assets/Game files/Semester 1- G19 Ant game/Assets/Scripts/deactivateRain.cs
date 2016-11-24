@@ -16,13 +16,13 @@ public class deactivateRain : MonoBehaviour {
 	}
     void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.collider.tag != "Rain")
+        if (col.collider.tag != "Rain" && col.collider.tag != "Player")
         {
             foreach (ContactPoint2D pointOfContact in col.contacts)
             {
 
                 Vector3 hitPoint = pointOfContact.point;
-                Debug.Log("Point of contact" + hitPoint);
+               // Debug.Log("Point of contact" + hitPoint);
                 Instantiate(runoff, (hitPoint), Quaternion.identity);
 
             }

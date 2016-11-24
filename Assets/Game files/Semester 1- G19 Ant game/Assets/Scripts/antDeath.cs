@@ -5,8 +5,9 @@ using UnityEngine.UI;
 public class antDeath : MonoBehaviour {
 
     public GameObject rain;
-    private int antHealth;
+    public int antHealth;
     public Text gameOver;
+    public GameObject restartGame;
     private GameObject player;
 	// Use this for initialization
 	void Start () {
@@ -14,6 +15,7 @@ public class antDeath : MonoBehaviour {
         antHealth = 100;
         gameOver.text = null;
         player = GameObject.FindGameObjectWithTag("Player");
+        restartGame.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -26,6 +28,7 @@ public class antDeath : MonoBehaviour {
         {
             player.GetComponent<antMovement>().enabled = false;
             gameOver.text = "Game Over";
+            restartGame.SetActive(true);
         }
 	
 	}
@@ -33,7 +36,6 @@ public class antDeath : MonoBehaviour {
     {
         if (col.gameObject.tag == "Rain")
         {
-            //Debug.Log("Health: " + antHealth);
             antHealth -= 10;
         }
     }
