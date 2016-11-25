@@ -39,6 +39,7 @@ public class antDeath : MonoBehaviour {
     {
         if (col.gameObject.tag == "Rain")
         {
+
             antHealth -= 10;
             healthBar.fillAmount -= 0.1f;
         }

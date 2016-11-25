@@ -8,11 +8,12 @@ public class pickUpItem : MonoBehaviour {
     public antMovement moveScript;
     public bool carryingItem;
     private bool encumbered;
+    public currentItemHealth itemHealth;
 	// Use this for initialization
 	void Start ()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        item = this.gameObject;
+        item = gameObject;
         carryingItem = false;
         encumbered = false;
     }
@@ -37,6 +38,7 @@ public class pickUpItem : MonoBehaviour {
     {
         if (player.transform.position.x < item.transform.position.x + 3 && player.transform.position.x > item.transform.position.x - 3)
         {
+            itemHealth.currentItem = gameObject;
             item.transform.parent = player.transform;
             item.transform.position = new Vector2(player.transform.position.x, player.transform.position.y + 0.5f);
             item.transform.rotation = Quaternion.Euler(0, 0, 0);

@@ -4,13 +4,11 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class gameEnd : MonoBehaviour {
-    private GameObject player;
+   
     public Text gameOver;
     public antDeath deathScript;
     // Use this for initialization
-    void Start () {
-        player = GameObject.FindGameObjectWithTag("Player");
-	}
+
 	
 
 public void OnClick()
