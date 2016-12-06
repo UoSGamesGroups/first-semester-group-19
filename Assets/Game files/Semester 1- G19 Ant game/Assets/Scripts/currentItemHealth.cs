@@ -9,6 +9,7 @@ public class currentItemHealth : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
+        currentItem = GameObject.FindGameObjectWithTag("Leaf");
     }
 	
 	// Update is called once per frame

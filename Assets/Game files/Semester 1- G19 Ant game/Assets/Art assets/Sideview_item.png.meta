@@ -1,0 +1,296 @@
+fileFormatVersion: 2
+guid: 68deff7a2ff7ac748903012dd72796c2
+timeCreated: 1481021070
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sideview_item_17
+    21300002: Sideview_item_29
+    21300004: Sideview_item_30
+    21300006: Sideview_item_31
+    21300008: Sideview_item_32
+    21300010: Sideview_item_33
+    21300012: Sideview_item_45
+    21300014: Sideview_item_46
+    21300016: Sideview_item_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Sideview_item_17
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1830
+        width: 14
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sideview_item_29
+      rect:
+        serializedVersion: 2
+        x: 2678
+        y: 1354
+        width: 606
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -106.061035, y: 75.47662}
+        - {x: -177.06104, y: -14.523376}
+        - {x: -177.06104, y: -72.52338}
+        - {x: -172.06104, y: -74.52338}
+        - {x: -135.06104, y: -74.52338}
+        - {x: 177.93896, y: -19.523376}
+        - {x: 177.93896, y: 35.476624}
+        - {x: 61.938965, y: 75.47662}
+      - - {x: -138.06104, y: -39.523376}
+        - {x: -137.06104, y: -42.523376}
+        - {x: -126.061035, y: -42.523376}
+        - {x: -123.061035, y: -37.523376}
+        - {x: -123.061035, y: -34.523376}
+        - {x: -131.06104, y: -34.523376}
+        - {x: -136.06104, y: -35.523376}
+      - - {x: -154.06104, y: -12.523376}
+        - {x: -158.06104, y: -12.523376}
+        - {x: -159.06104, y: -15.523376}
+        - {x: -159.06104, y: -18.523376}
+        - {x: -157.06104, y: -19.523376}
+        - {x: -153.06104, y: -19.523376}
+        - {x: -152.06104, y: -16.523376}
+        - {x: -152.06104, y: -13.523376}
+      - - {x: -8.061035, y: -8.523376}
+        - {x: -8.061035, y: -10.523376}
+        - {x: -7.061035, y: -12.523376}
+        - {x: -3.0610352, y: -12.523376}
+        - {x: 0.93896484, y: -9.523376}
+        - {x: -0.061035156, y: -6.5233765}
+        - {x: -5.061035, y: -6.5233765}
+      - - {x: 116.938965, y: -3.5233765}
+        - {x: 116.938965, y: -4.5233765}
+        - {x: 118.938965, y: -6.5233765}
+        - {x: 122.938965, y: -6.5233765}
+        - {x: 124.938965, y: -4.5233765}
+        - {x: 123.938965, y: -1.5233765}
+        - {x: 119.938965, y: -0.52337646}
+      - - {x: 148.93896, y: 35.476624}
+        - {x: 151.93896, y: 36.476624}
+        - {x: 151.93896, y: 39.476624}
+        - {x: 148.93896, y: 40.476624}
+        - {x: 146.93896, y: 38.476624}
+      - - {x: -97.061035, y: 59.476624}
+        - {x: -96.061035, y: 56.476624}
+        - {x: -93.061035, y: 56.476624}
+        - {x: -90.061035, y: 59.476624}
+        - {x: -90.061035, y: 61.476624}
+        - {x: -93.061035, y: 62.476624}
+      - - {x: -81.061035, y: 65.47662}
+        - {x: -80.061035, y: 62.476624}
+        - {x: -77.061035, y: 62.476624}
+        - {x: -75.061035, y: 64.47662}
+        - {x: -76.061035, y: 67.47662}
+        - {x: -79.061035, y: 67.47662}
+      - - {x: -88.061035, y: 75.47662}
+        - {x: -89.061035, y: 74.47662}
+        - {x: -88.061035, y: 71.47662}
+        - {x: -85.061035, y: 71.47662}
+        - {x: -83.061035, y: 73.47662}
+        - {x: -84.061035, y: 75.47662}
+    - name: Sideview_item_30
+      rect:
+        serializedVersion: 2
+        x: 2901
+        y: 1608
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sideview_item_31
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1279
+        width: 632
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -129.70581, y: 66.69098}
+        - {x: -153.70581, y: 35.69098}
+        - {x: -184.70581, y: -34.30902}
+        - {x: -184.70581, y: -65.30902}
+        - {x: -149.70581, y: -65.30902}
+        - {x: 185.29419, y: -10.309021}
+        - {x: 185.29419, y: 50.69098}
+        - {x: 113.29419, y: 66.69098}
+    - name: Sideview_item_32
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1354
+        width: 378
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72.39227, y: 56.476624}
+        - {x: -83.39227, y: 43.476624}
+        - {x: -110.39227, y: -22.523376}
+        - {x: -110.39227, y: -55.523376}
+        - {x: 54.607727, y: -55.523376}
+        - {x: 111.60773, y: -15.523376}
+        - {x: 111.60773, y: 56.476624}
+    - name: Sideview_item_33
+      rect:
+        serializedVersion: 2
+        x: 3287
+        y: 1479
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sideview_item_45
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 140
+        width: 989
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 169.29419, y: -39.266823}
+        - {x: 276.2942, y: 8.733177}
+        - {x: 289.2942, y: 27.733177}
+        - {x: 289.2942, y: 46.733177}
+        - {x: 226.29419, y: 37.733177}
+        - {x: 194.29419, y: 41.733177}
+        - {x: 99.29419, y: 87.73318}
+        - {x: 70.29419, y: 91.73318}
+        - {x: 0.29418945, y: 91.73318}
+        - {x: -36.70581, y: 86.73318}
+        - {x: -87.70581, y: 74.73318}
+        - {x: -127.70581, y: 63.733177}
+        - {x: -183.70581, y: 36.733177}
+        - {x: -288.7058, y: -60.266823}
+        - {x: -288.7058, y: -91.26682}
+        - {x: -264.7058, y: -91.26682}
+        - {x: -191.70581, y: -46.266823}
+        - {x: -114.70581, y: -40.266823}
+        - {x: -41.70581, y: -47.266823}
+    - name: Sideview_item_46
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 233
+        width: 1097
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 117.75653, y: -38.97264}
+        - {x: 209.75653, y: -27.972641}
+        - {x: 283.75653, y: -8.972641}
+        - {x: 320.75653, y: 28.027359}
+        - {x: 320.75653, y: 48.02736}
+        - {x: 318.75653, y: 50.02736}
+        - {x: 229.75653, y: 30.027359}
+        - {x: 219.75653, y: 48.02736}
+        - {x: 135.75653, y: 60.02736}
+        - {x: 67.75653, y: 90.02736}
+        - {x: 39.75653, y: 90.02736}
+        - {x: -4.243469, y: 87.02736}
+        - {x: -9.243469, y: 90.02736}
+        - {x: -59.24347, y: 90.02736}
+        - {x: -95.24347, y: 85.02736}
+        - {x: -210.24347, y: 57.02736}
+        - {x: -272.24347, y: 4.027359}
+        - {x: -311.24347, y: -56.97264}
+        - {x: -320.24347, y: -70.97264}
+        - {x: -320.24347, y: -84.97264}
+        - {x: -308.24347, y: -89.97264}
+        - {x: -291.24347, y: -89.97264}
+        - {x: -267.24347, y: -62.97264}
+        - {x: -204.24347, y: -42.97264}
+        - {x: -23.24347, y: -43.97264}
+    - name: Sideview_item_47
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 292
+        width: 700
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 204.72168, y: 19.472061}
+        - {x: 82.72168, y: 59.47206}
+        - {x: -74.27832, y: 59.47206}
+        - {x: -153.27832, y: 35.47206}
+        - {x: -204.27832, y: -40.52794}
+        - {x: -204.27832, y: -56.52794}
+        - {x: -202.27832, y: -58.52794}
+        - {x: -145.27832, y: -58.52794}
+        - {x: -21.27832, y: -43.52794}
+        - {x: 155.72168, y: -35.52794}
+        - {x: 205.72168, y: 6.472061}
+        - {x: 205.72168, y: 17.472061}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

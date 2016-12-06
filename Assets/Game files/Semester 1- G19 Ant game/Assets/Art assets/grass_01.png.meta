@@ -1,0 +1,140 @@
+fileFormatVersion: 2
+guid: 9cd9f3882e3756f40a9cd74c5d6230c9
+timeCreated: 1481021384
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: grass_01_0
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: grass_01_0
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 1257
+        width: 1113
+        height: 916
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.648315, y: -267.15283}
+        - {x: -91.648315, y: -254.15283}
+        - {x: -88.648315, y: -267.15283}
+        - {x: -43.648315, y: -267.15283}
+        - {x: -32.648315, y: -254.15283}
+        - {x: -28.648315, y: -247.15283}
+        - {x: -16.648315, y: -266.15283}
+        - {x: -15.648315, y: -267.15283}
+        - {x: 3.3516846, y: -267.15283}
+        - {x: 16.351685, y: -258.15283}
+        - {x: 32.351685, y: -223.15283}
+        - {x: 33.351685, y: -199.15283}
+        - {x: 13.351685, y: -123.15283}
+        - {x: 20.351685, y: -101.15283}
+        - {x: 22.351685, y: -47.152832}
+        - {x: 21.351685, y: -4.152832}
+        - {x: 14.351685, y: 51.847168}
+        - {x: 88.351685, y: 30.847168}
+        - {x: 121.351685, y: 28.847168}
+        - {x: 237.35168, y: 14.847168}
+        - {x: 313.35168, y: 9.847168}
+        - {x: 326.35168, y: 17.847168}
+        - {x: 326.35168, y: 45.847168}
+        - {x: 309.35168, y: 73.84717}
+        - {x: 302.35168, y: 84.84717}
+        - {x: 284.35168, y: 102.84717}
+        - {x: 224.35168, y: 146.84717}
+        - {x: 181.35168, y: 171.84717}
+        - {x: 172.35168, y: 187.84717}
+        - {x: 129.35168, y: 213.84717}
+        - {x: 97.351685, y: 226.84717}
+        - {x: 96.351685, y: 236.84717}
+        - {x: 79.351685, y: 249.84717}
+        - {x: 51.351685, y: 260.84717}
+        - {x: -2.6483154, y: 264.84717}
+        - {x: -31.648315, y: 268.84717}
+        - {x: -110.648315, y: 268.84717}
+        - {x: -126.648315, y: 257.84717}
+        - {x: -133.64832, y: 243.84717}
+        - {x: -164.64832, y: 220.84717}
+        - {x: -186.64832, y: 169.84717}
+        - {x: -188.64832, y: 132.84717}
+        - {x: -208.64832, y: 100.84717}
+        - {x: -218.64832, y: 62.847168}
+        - {x: -235.64832, y: 23.847168}
+        - {x: -262.64832, y: -66.15283}
+        - {x: -285.64832, y: -124.15283}
+        - {x: -300.64832, y: -141.15283}
+        - {x: -324.64832, y: -196.15283}
+        - {x: -324.64832, y: -244.15283}
+        - {x: -310.64832, y: -247.15283}
+        - {x: -309.64832, y: -244.15283}
+        - {x: -310.64832, y: -241.15283}
+        - {x: -304.64832, y: -241.15283}
+        - {x: -301.64832, y: -240.15283}
+        - {x: -289.64832, y: -229.15283}
+        - {x: -291.64832, y: -230.15283}
+        - {x: -297.64832, y: -238.15283}
+        - {x: -304.64832, y: -248.15283}
+        - {x: -285.64832, y: -265.15283}
+        - {x: -271.64832, y: -257.15283}
+        - {x: -244.64832, y: -265.15283}
+        - {x: -231.64832, y: -254.15283}
+        - {x: -216.64832, y: -264.15283}
+        - {x: -194.64832, y: -242.15283}
+        - {x: -177.64832, y: -251.15283}
+        - {x: -179.64832, y: -267.15283}
+        - {x: -144.64832, y: -267.15283}
+        - {x: -137.64832, y: -262.15283}
+        - {x: -127.648315, y: -262.15283}
+        - {x: -111.648315, y: -267.15283}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
