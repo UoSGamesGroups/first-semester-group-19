@@ -10,7 +10,7 @@ public class itemHealth : MonoBehaviour {
     bool hasFixed;
 	// Use this for initialization
 	void Start () {
-        health = 100;
+        health = 80;
         itemHealthScript.healthBar.fillAmount = 1;
      
 	}
@@ -35,7 +35,7 @@ public class itemHealth : MonoBehaviour {
             if (transform.parent != null && transform.parent.tag == "Player")
             {
                 Debug.Log(transform.parent.tag);
-                playerHealth.antHealth += damageAmount;
+                playerHealth.antHealth += damageAmount * 2;
 
             }
             Debug.Log("Health: " + health);

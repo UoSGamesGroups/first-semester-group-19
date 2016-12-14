@@ -30,6 +30,7 @@ public class RainController : MonoBehaviour
                 {
                     rainArray[i].transform.rotation = Quaternion.identity;
                     rainArray[i].transform.position = new Vector2(player.transform.position.x + Random.Range(-5, 5), 9);
+                    rainArray[i].transform.localScale = new Vector2(Random.Range(0.25f, 0.35f), Random.Range(0.25f, 0.35f));
                     rainArray[i].GetComponent<Rigidbody2D>().gravityScale = Random.Range(0.5f, 1f);
                     rainArray[i].SetActive(true);
                  
@@ -50,7 +51,7 @@ public class RainController : MonoBehaviour
 
         if (rainCountdown == 0)
         {
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < 8; i++)
             {
                 findSpareRain();
             }

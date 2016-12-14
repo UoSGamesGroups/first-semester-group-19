@@ -21,11 +21,13 @@ public class antMovement : MonoBehaviour {
         if (Input.GetKey(KeyCode.A))
             {
             direction = 0;
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
             }
         if (Input.GetKey(KeyCode.D))
             {
             direction = 1;
-        }
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            }
     }
 }
 

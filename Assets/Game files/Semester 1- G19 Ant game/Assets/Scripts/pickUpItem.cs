@@ -32,6 +32,11 @@ public class pickUpItem : MonoBehaviour {
         {
             encumbered = false;
         }
+        if(transform.parent != null && transform.parent.tag == "Player")
+        {
+            gameObject.GetComponent<SpriteRenderer>().flipX = player.GetComponent<SpriteRenderer>().flipX;
+        }
+       
     }
 
     void OnMouseUpAsButton()
